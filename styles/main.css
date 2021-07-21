@@ -43,7 +43,23 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
+}
+
+/* MEDIAQUERIES */
+
+@media screen and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu {
+    padding-right: 30px;
+  }
+  .main {
+    font-size: 40px;
+  }
 }
