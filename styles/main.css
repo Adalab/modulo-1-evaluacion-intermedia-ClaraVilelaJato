@@ -30,11 +30,20 @@ body {
   list-style: none;
   display: flex;
   padding-bottom: 13px;
+  padding-top: 10px;
   display: flex;
 }
 .item-list {
   padding-left: 10px;
   padding-right: 10px;
+}
+.link {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 16px;
+}
+.link:hover {
+  background-color: #3cdbc0;
 }
 .main {
   width: 100vw;
