@@ -22,6 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-transform: capitalize;
   text-transform: uppercase;
   color: #4a4a4a;
   font-size: 16px;
@@ -33,18 +34,19 @@ body {
 .list {
   list-style: none;
   display: flex;
-  padding-bottom: 13px;
-  padding-top: 10px;
+  padding-bottom: 6.5px;
+  /* padding-top: 10px; */
   display: flex;
 }
-.item-list {
+/* .item-list {
   padding-left: 10px;
   padding-right: 10px;
-}
+} */
 .link {
   text-decoration: none;
   color: #4a4a4a;
   font-size: 16px;
+  padding: 5px 10px 6.5px 10px;
 }
 .link:hover {
   background-color: var(--adalab-color);
@@ -58,8 +60,12 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--second-color);
+}
+.main-title {
   font-size: 30px;
+  width: 10ch;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 /* MEDIAQUERIES */
